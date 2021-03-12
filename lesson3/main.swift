@@ -7,7 +7,7 @@
 
 import Foundation
 
-var modelCar: String
+var modelCar: String//
 
 enum EngineConditions: String{
     case switchedOn = "Двигатель запущен", SwitchedOff = "Двигатель выключен"
@@ -205,4 +205,4 @@ let arr: Array<Car> = [sportCar, trunkCar]
 for el in arr {
     conditionsOfCar(el)
     print(indent)
-}
+}//
